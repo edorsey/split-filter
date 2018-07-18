@@ -1,6 +1,6 @@
 {
   "name": "@edorsey/split-filter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This function behaves the same as Array.filter and _.filter, but it returns two of results. The first item in the array contains an array of all of the items that the filter returns true for, and the second item contains an array of all the items where the filter returns false.",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,9 @@
   },
   "homepage": "https://github.com/edorsey/split-filter#readme",
   "dependencies": {
-    "lodash.reduce": "^4.6.0",
-    "lodash.zip": "^4.2.0",
+    "lodash.reduce": "^4.6.0"
+  },
+  "devDependencies": {
     "mocha": "^5.2.0",
     "should": "^13.2.1"
   }
